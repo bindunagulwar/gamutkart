@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone-Repo') {
 	    	steps {
-	        	checkout scm
+	        	https://github.com/Devi-12345/gamutkart.git
 	    	}
         }
 	stage('Build') {
